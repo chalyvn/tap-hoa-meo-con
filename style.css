@@ -1,0 +1,33 @@
+@import url("https://googleapis.com");
+
+:root {
+  --primary-color: #04a3ff;
+  --background-color: #f1f2f6;
+}
+
+body {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+  padding: 40px 15px;
+}
+
+header {
+  padding: 20px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
+.sell-house .card-img-top {
+  width: 300px;
+}
